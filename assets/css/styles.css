@@ -36,16 +36,17 @@ header li {
 }
 
 main {
-  background-color: white;
+  background-color: #c8b6ff;
 }
 
 footer {
-  background-color: yellow;
+  background-color: #ffd6ff;
 }
 
 #about {
   display: grid;
   grid-template-columns: 2;
+  background-color: #c8b6ff;
 }
 
 #aboutparagraph {
@@ -57,3 +58,15 @@ footer {
   width: 225px;
   height: 300px;
 }
+
+#skills {
+  background-color: #c8b6ff;
+}
+
+#projects {
+  background-color: #c8b6ff;
+}
+
+#contact(
+  background-color: #ffd6ff;
+);
