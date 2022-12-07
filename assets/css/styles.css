@@ -21,9 +21,12 @@ header li a {
   color: black;
 }
 
+nav {
+  width: 100%;
+}
 .navigation {
   display: flex;
-  text-align: right;
+  justify-content: flex-end;
 }
 
 .hero {
@@ -80,4 +83,6 @@ main {
 footer {
   display: flex;
   justify-content: center;
+  background-color: black;
+  color: white;
 }
