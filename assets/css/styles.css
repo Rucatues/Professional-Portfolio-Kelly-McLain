@@ -11,7 +11,6 @@ header {
 }
 
 header li {
-  /* display: inline-block; */
   list-style: none;
   padding: 0 20px;
 }
@@ -77,12 +76,25 @@ main {
 #projects {
 }
 
-#contact {
+footer {
+  background-color: cornflowerblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-footer {
+.contactlinks {
   display: flex;
-  justify-content: center;
-  background-color: black;
-  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactlinks li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.contactlinks li a {
+  text-decoration: none;
+  color: whitesmoke;
 }
