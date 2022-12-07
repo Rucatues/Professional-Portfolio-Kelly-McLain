@@ -47,28 +47,28 @@ header li a {
   color: cornflowerblue;
 }
 
-main {
+#hi {
+  writing-mode: vertical-rr;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
+main {
 }
 
 .aboutme {
 }
 #about {
   display: flex;
+  border: 1px solid black;
 }
 
 #aboutparagraph {
-  width: 30%;
+  width: 50%;
   height: 100px;
 }
 
 #dogphoto {
   width: 225px;
-  /* margin-right: 50px; */
+  margin-right: 200px;
 }
 
 #skills {
@@ -79,3 +79,10 @@ footer {
 
 #contact {
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen (mid-width: 320px);
