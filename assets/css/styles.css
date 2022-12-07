@@ -10,6 +10,10 @@ header {
   align-items: flex-end;
 }
 
+#KM {
+  /* how do I get this item to the left side of the nav bar?*/
+}
+
 header li {
   list-style: none;
   padding: 0 20px;
@@ -51,11 +55,6 @@ nav {
   color: cornflowerblue;
 }
 
-main {
-}
-
-.aboutme {
-}
 #about {
   display: flex;
 }
