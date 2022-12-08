@@ -53,14 +53,10 @@ nav {
 .hero-inner {
   font-size: 60px;
   text-align: left;
-  margin-right: 50px;
+  margin: 170px 0 0 50px;
   width: 800px;
-  margin-top: 170px;
 }
 
-.main {
-  /*margin: 0 50px;*/
-}
 .name {
   color: cornflowerblue;
 }
@@ -136,6 +132,10 @@ footer {
   color: whitesmoke;
 }
 
-.contactlinks:link {
+.contactlinks li:link {
   cursor: grab;
+}
+
+.contactlinks li:hover {
+  text-decoration: underline;
 }
