@@ -4,6 +4,13 @@ body {
   background-color: whitesmoke;
 }
 
+a:link {
+  cursor: grab;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -127,4 +134,8 @@ footer {
 .contactlinks li a {
   text-decoration: none;
   color: whitesmoke;
+}
+
+.contactlinks:link {
+  cursor: grab;
 }
