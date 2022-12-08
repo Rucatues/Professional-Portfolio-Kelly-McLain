@@ -17,10 +17,6 @@ header {
   align-items: flex-end;
 }
 
-#KM {
-  /* how do I align this left?  */
-}
-
 header li {
   list-style: none;
   padding: 0 20px;
@@ -36,9 +32,19 @@ nav {
 }
 .navigation {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-top: 20px;
   width: 100%;
+}
+
+#KM {
+  width: 100%;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero {
@@ -162,19 +168,19 @@ footer {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 990px) {
+/*@media screen and (max-width: 990px) {
   #dogphoto {
-    /*what to put here to shrink image so that it isn't stretched*/
+    what to put here to shrink image so that it isn't stretched
   }
 }
-
-/*when screen is less than 400px, nav bar shrinks into column*/
+/*when screen is less than 400px, nav bar shrinks into column
 @media screen and (max-width: 400px) {
   .navigation {
     flex-direction: column;
   }
 
-  /*  need help adjusting hero text to fit into mobile device
+  */
+/*  need help adjusting hero text to fit into mobile device
   .hero {
     display: flex;
     flex-direction: column;
@@ -185,4 +191,3 @@ footer {
     word-wrap: normal;
   }
   */
-}
