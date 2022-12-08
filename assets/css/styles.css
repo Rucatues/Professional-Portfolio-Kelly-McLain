@@ -57,6 +57,14 @@ nav {
   color: cornflowerblue;
 }
 
+#projects {
+  display: flex;
+}
+
+#skills {
+  display: flex;
+}
+
 #about {
   display: flex;
 }
@@ -69,12 +77,6 @@ nav {
 #dogphoto {
   width: 225px;
   margin-right: 200px;
-}
-
-#skills {
-}
-
-#projects {
 }
 
 footer {
