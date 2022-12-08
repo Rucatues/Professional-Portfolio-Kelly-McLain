@@ -173,6 +173,16 @@ footer {
   .navigation {
     flex-direction: column;
   }
-}
 
-@media screen and (min-width: );
+  /*  need help adjusting hero text to fit into mobile device
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .hero-inner {
+    font-size: 20px;
+    word-wrap: normal;
+  }
+  */
+}
