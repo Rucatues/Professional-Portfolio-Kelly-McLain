@@ -111,6 +111,16 @@ h2 {
   line-height: 1.2;
 }
 
+#aboutparagraph a {
+  text-decoration: none;
+  cursor: grab;
+  color: #0645ad;
+}
+
+#aboutparagraph a:hover {
+  text-decoration: underline;
+}
+
 #dogphoto {
   width: 225px;
   margin-right: 200px;
