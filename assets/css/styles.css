@@ -30,6 +30,7 @@ nav {
 .navigation {
   display: flex;
   justify-content: flex-end;
+  margin-top: 20px;
 }
 
 .hero {
@@ -38,6 +39,7 @@ nav {
   text-align: left;
   display: flex;
   justify-content: flex-start;
+  line-height: 1.1;
 }
 
 .hero-inner {
@@ -79,8 +81,10 @@ footer {
   background-color: cornflowerblue;
   color: white;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
 
 .contactlinks {
