@@ -39,6 +39,9 @@ nav {
 
 #KM {
   width: 100%;
+  font-family: "Rubik Vinyl", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: cornflowerblue;
 }
 
 .nav-links {
