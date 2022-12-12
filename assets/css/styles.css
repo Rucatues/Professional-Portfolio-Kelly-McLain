@@ -64,11 +64,11 @@ nav {
 }
 
 .name {
-  color: #2a7f62;
+  color: rgb(143, 175, 235);
 }
 
 .name:hover {
-  color: rgb(143, 175, 235);
+  color: #ffad05;
 }
 
 h2 {
@@ -90,13 +90,10 @@ h2 {
   padding: 50px 0;
   width: 100%;
   color: whitesmoke;
-  background-color: #2a7f62;
+  background-color: #6a706e;
 }
 
-#skills h2 {
-  margin: 0 50px;
-}
-
+#skills h2,
 #skillsparagraph {
   margin: 0 50px;
 }
@@ -129,13 +126,13 @@ h2 {
 
 #dogphoto {
   width: 225px;
-  margin-right: 250px;
+  margin-right: 200px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px gray;
 }
 
 footer {
-  background-color: #4f7266;
+  background-color: #6a706e;
   color: white;
   display: flex;
   flex-direction: row;
@@ -185,8 +182,4 @@ footer {
     flex-direction: column;
     width: 300px;
   }
-  .hero-inner {
-    font-size: 20px;
-    word-wrap: normal;
-  }
-  */
+
