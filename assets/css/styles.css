@@ -103,6 +103,35 @@ h2 {
   padding: 5px;
 }
 
+.container-titles {
+  font-size: 30px;
+}
+
+.container-paragraphs,
+.container-buttons,
+.container-titles {
+  margin: 10px;
+}
+
+.container-buttons {
+  background-color: whitesmoke;
+  border: 0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 8px;
+  text-align: center;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: grab;
+}
+
+.container-buttons:hover {
+  background-color: #d1d1d1;
+}
+
 #skills {
   font-family: "Hanken Grotesk", Arial, serif;
   display: flex;
@@ -161,7 +190,7 @@ h2 {
   height: 225px;
   margin-right: 200px;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px #6a706e;
 }
 
 footer {
