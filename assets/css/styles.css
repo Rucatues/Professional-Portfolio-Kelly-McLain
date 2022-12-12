@@ -64,11 +64,11 @@ nav {
 }
 
 .name {
-  color: rgb(143, 175, 235);
+  color: rgb(106, 145, 209);
 }
 
 .name:hover {
-  color: #ffad05;
+  color: rgb(89, 178, 148);
 }
 
 h2 {
@@ -79,8 +79,28 @@ h2 {
   font-family: "Hanken Grotesk", Arial, serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 50px 0;
   margin: 0 50px;
+}
+
+.projects-section-header {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project1-container,
+.project2-container,
+.project3-container {
+  border: 5px solid rgb(106, 145, 209);
+  width: 300px;
+  padding: 5px;
 }
 
 #skills {
@@ -98,6 +118,18 @@ h2 {
   margin: 0 50px;
 }
 
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 50px;
+}
+.fa-html5,
+.fa-css3-alt,
+.fa-square-js {
+  font-size: 50px;
+  padding: 5px;
+}
 #about {
   font-family: "Hanken Grotesk", Arial, serif;
   display: flex;
@@ -126,6 +158,7 @@ h2 {
 
 #dogphoto {
   width: 225px;
+  height: 225px;
   margin-right: 200px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px gray;
@@ -163,23 +196,3 @@ footer {
 .contactlinks li:hover {
   text-decoration: underline;
 }
-
-/*@media screen and (max-width: 990px) {
-  #dogphoto {
-    what to put here to shrink image so that it isn't stretched
-  }
-}
-/*when screen is less than 400px, nav bar shrinks into column
-@media screen and (max-width: 400px) {
-  .navigation {
-    flex-direction: column;
-  }
-
-  */
-/*  need help adjusting hero text to fit into mobile device
-  .hero {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-  }
-
