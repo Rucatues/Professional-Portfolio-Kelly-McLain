@@ -64,11 +64,11 @@ nav {
 }
 
 .name {
-  color: cornflowerblue;
+  color: #2a7f62;
 }
 
 .name:hover {
-  color: rgb(110, 178, 155);
+  color: rgb(143, 175, 235);
 }
 
 h2 {
@@ -90,7 +90,7 @@ h2 {
   padding: 50px 0;
   width: 100%;
   color: whitesmoke;
-  background-color: black;
+  background-color: #2a7f62;
 }
 
 #skills h2 {
@@ -135,14 +135,13 @@ h2 {
 }
 
 footer {
-  background-color: cornflowerblue;
+  background-color: #4f7266;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-top: 10px dashed whitesmoke;
 }
 
 .contactlinks {
