@@ -101,15 +101,14 @@ h2 {
 .project1-container,
 .project2-container,
 .project3-container {
-  border: 5px solid rgb(106, 145, 209);
+  border: 5px solid #6a706e;
+  border-radius: 12px; 
   width: 300px;
   padding: 5px;
+  background-color:rgb(203, 201, 201); 
 }
 
-.project1-container{
-  background-image: url("assets/images/screencapture-rucatues-github-io-Horiseon-Refactor-Project-2022-12-12-21_41_45.png");
-  background-repeat: no-repeat; 
-}
+
 
 .container-titles {
   font-size: 30px;
