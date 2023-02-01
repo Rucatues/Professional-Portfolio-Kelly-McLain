@@ -2,7 +2,7 @@
 
 ## Quick Links
 
-[Click here](https://github.com/Rucatues/Professional-Portfolio-Kelly-McLain) to view final website
+[Click here](https://rucatues.github.io/Professional-Portfolio-Kelly-McLain/) to view final website
 
 ## Overview
 
