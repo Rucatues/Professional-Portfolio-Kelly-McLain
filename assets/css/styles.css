@@ -98,6 +98,10 @@ h2 {
   flex-wrap: wrap;
 }
 
+.project1-container{
+  background-image: url("/Users/kellymclain/bootcamp/Homework/Professional-Portfolio-Kelly-McLain/assets/images/CutiePies.png");
+}
+
 .project1-container,
 .project2-container,
 .project3-container {
@@ -128,6 +132,8 @@ h2 {
   font-family: "Inter", Arial, sans-serif;
   font-size: 14px;
   font-weight: 600;
+  position: relative;
+  top: 10px; 
   padding: 5px 8px;
   text-align: center;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -160,9 +166,7 @@ h2 {
   justify-content: flex-start;
   margin: 0 50px;
 }
-.fa-html5,
-.fa-css3-alt,
-.fa-square-js {
+.fa-brands {
   font-size: 50px;
   padding: 5px;
 }
