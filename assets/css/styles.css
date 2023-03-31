@@ -98,9 +98,9 @@ h2 {
   flex-wrap: wrap;
 }
 
-#projects1-container{
+/* .project1-container{
   background-color:rgb(243, 217, 211);
-}
+} */
 
 .project1-container,
 .project2-container,
@@ -108,7 +108,7 @@ h2 {
   border-radius: 12px; 
   width: 300px;
   padding: 5px;
-  background-color:rgb(203, 201, 201); 
+  background-color:rgb(89, 178, 148); 
 }
 
 
