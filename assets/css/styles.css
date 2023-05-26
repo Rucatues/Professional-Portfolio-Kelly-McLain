@@ -137,8 +137,23 @@ h2 {
   cursor: grab;
 }
 
+.paragraph-b{
+  position: relative; 
+  bottom: 20px; 
+}
+
 .container-buttons:hover {
   background-color: white;
+}
+
+.button-a{
+position: relative; 
+top: 15px; 
+}
+
+.button-c{
+  position: relative; 
+  top: 45px; 
 }
 
 /* Skills section */
